@@ -1,0 +1,182 @@
+{
+  "app": {
+    "nom": "Studio Étoile",
+    "slogan": "Apprends. Brille. Crée."
+  },
+
+  "navigation": {
+    "accueil": "Accueil",
+    "mathematiques": "Mathématiques",
+    "francais": "Français",
+    "monStudio": "Mon Studio",
+    "progres": "Ma Progression"
+  },
+
+  "accueil": {
+    "bienvenue": "Bienvenue dans ton Studio !",
+    "soustitre": "Choisis ton aventure d'aujourd'hui",
+    "continuer": "Continuer là où tu t'es arrêtée",
+    "defi": "Défi du jour",
+    "nouveaute": "Nouveauté !"
+  },
+
+  "rangs": {
+    "titre": "Ton rang",
+    "1": "Apprentie Styliste",
+    "2": "Styliste Junior",
+    "3": "Créatrice de Tendances",
+    "4": "Designer Étoile",
+    "5": "Artiste de Mode",
+    "6": "Légende du Studio",
+    "prochainRang": "Prochain rang :",
+    "pointsRestants": "{{points}} points pour monter de rang !"
+  },
+
+  "points": {
+    "total": "{{n}} points",
+    "gagnes": "+{{n}} points !",
+    "bonneReponse": "+15 pts — Excellent !",
+    "deuxiemeTentative": "+10 pts — Bien joué !",
+    "avecAide": "+5 pts — Continue comme ça !"
+  },
+
+  "math": {
+    "titre": "Mathématiques",
+    "soustitre": "Résous des problèmes et débloque des récompenses !",
+    "themes": {
+      "manucure": "Salon Manucure",
+      "maquillage": "Studio Maquillage",
+      "defile": "Défilé de Mode",
+      "boutique": "Boutique de Mode",
+      "nailart": "Atelier Nail Art"
+    },
+    "palette": {
+      "bleu": "Je lis attentivement",
+      "jaune": "Je surligne les données importantes",
+      "rose": "Je calcule",
+      "vert": "Je vérifie ma réponse"
+    },
+    "etapes": {
+      "bleu": "Étape 1 — Lecture",
+      "jaune": "Étape 2 — Compréhension",
+      "rose": "Étape 3 — Calcul",
+      "vert": "Étape 4 — Vérification"
+    },
+    "aide": "Voir un indice",
+    "valider": "Valider ma réponse",
+    "suivant": "Exercice suivant",
+    "recommencer": "Réessayer",
+    "solution": "Voir la solution"
+  },
+
+  "francais": {
+    "titre": "Français",
+    "soustitre": "Lis, écris et deviens une vraie chroniqueuse !",
+    "lecture": {
+      "titre": "Lecture",
+      "commencer": "Lire le texte",
+      "questions": "Questions de compréhension",
+      "vocabulaire": "Vocabulaire"
+    },
+    "journal": {
+      "titre": "Mon Journal de Beauté",
+      "ecrire": "Écrire aujourd'hui",
+      "sujet": "Sujet du jour",
+      "soumettre": "Soumettre mon texte",
+      "brouillon": "Sauvegarder le brouillon",
+      "aide": "Besoin d'inspiration ?"
+    },
+    "grammaire": {
+      "titre": "Grammaire",
+      "fiches": "Fiches de révision"
+    }
+  },
+
+  "feedback": {
+    "parfait": "Parfait ! Tu es incroyable ! ✨",
+    "tresBien": "Très bien ! Continue comme ça !",
+    "bien": "Bien joué ! Tu progresses !",
+    "presque": "Presque ! Essaie encore, tu es capable !",
+    "courage": "Courage ! Lis bien la question et réessaie.",
+    "aide": "Voici un indice pour t'aider :",
+    "solution": "Voici comment on résout ce problème :",
+    "journal": {
+      "soumis": "Ton texte est magnifique ! Ton éditrice adore !",
+      "brouillon": "Brouillon sauvegardé — tu peux continuer plus tard.",
+      "correction": "Petite suggestion de ton éditrice :"
+    }
+  },
+
+  "recompenses": {
+    "titre": "Récompenses débloquées !",
+    "nouvelleTenue": "Nouvelle tenue débloquée !",
+    "nouveauVernis": "Nouveau vernis débloqué !",
+    "nouveauMaquillage": "Nouveau maquillage débloqué !",
+    "voirArmoire": "Voir mon armoire",
+    "plusTard": "Plus tard"
+  },
+
+  "studio": {
+    "titre": "Mon Studio",
+    "avatar": "Mon Avatar",
+    "armoire": "Mon Armoire",
+    "recompenses": "Mes Récompenses",
+    "succès": "Mes Succès",
+    "vernis": "Collection Vernis",
+    "maquillage": "Collection Maquillage",
+    "tenues": "Collection Tenues",
+    "accessoires": "Accessoires",
+    "verrouille": "Verrouillé — Continue à jouer pour débloquer !"
+  },
+
+  "defis": {
+    "titre": "Défis Flash Focus",
+    "soustitre": "3 minutes pour briller !",
+    "commencer": "Lancer le défi",
+    "temps": "Temps restant :",
+    "termine": "Défi terminé !",
+    "score": "Score : {{score}} / {{total}}",
+    "types": {
+      "calcul": "Calcul Express",
+      "memoire": "Mémoire Couleurs",
+      "vraiOuFaux": "Vrai ou Faux",
+      "suite": "Compléter la Suite",
+      "estimation": "Estimation Rapide"
+    }
+  },
+
+  "progression": {
+    "titre": "Ma Progression",
+    "semaine": "Cette semaine",
+    "mois": "Ce mois-ci",
+    "tout": "Depuis le début",
+    "exercices": "Exercices complétés",
+    "points": "Points gagnés",
+    "sessions": "Jours d'étude",
+    "tempsTotal": "Temps d'étude total",
+    "competences": "Mes Compétences",
+    "niveaux": {
+      "debut": "Je commence",
+      "enCours": "En progression",
+      "bien": "Je maîtrise bien",
+      "excellent": "Excellent !"
+    }
+  },
+
+  "commun": {
+    "loading": "Chargement...",
+    "erreur": "Oups ! Quelque chose s'est passé. Réessaie !",
+    "retour": "Retour",
+    "fermer": "Fermer",
+    "oui": "Oui",
+    "non": "Non",
+    "annuler": "Annuler",
+    "confirmer": "Confirmer",
+    "minute": "minute",
+    "minutes": "minutes",
+    "seconde": "seconde",
+    "secondes": "secondes",
+    "de": "de",
+    "sur": "sur"
+  }
+}

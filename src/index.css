@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-nunito bg-porcelaine text-gray-800 min-h-screen;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3 {
+    @apply font-nunito font-bold;
+  }
+}
+
+@layer components {
+  /* Carte de base */
+  .carte {
+    @apply bg-white rounded-3xl shadow-card p-6 border border-rose-light;
+  }
+
+  /* Bouton principal */
+  .btn-principal {
+    @apply bg-rose text-white font-bold py-3 px-6 rounded-2xl
+           shadow-rose-glow transition-all duration-200
+           hover:bg-rose-dark hover:scale-105 active:scale-95
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  /* Bouton secondaire */
+  .btn-secondaire {
+    @apply bg-perle text-lavande-dark font-bold py-3 px-6 rounded-2xl
+           border-2 border-lavande transition-all duration-200
+           hover:bg-lavande hover:text-white hover:scale-105 active:scale-95;
+  }
+
+  /* Badge de rang */
+  .badge-rang {
+    @apply inline-flex items-center gap-1 bg-or-light text-or-dark
+           font-bold text-sm py-1 px-3 rounded-full border border-or;
+  }
+
+  /* Étiquette de compétence */
+  .etiquette {
+    @apply inline-block text-xs font-semibold py-0.5 px-2 rounded-full;
+  }
+
+  /* Barre de progression */
+  .barre-progress {
+    @apply h-3 rounded-full bg-perle overflow-hidden;
+  }
+
+  .barre-progress-fill {
+    @apply h-full rounded-full transition-all duration-700 ease-out;
+  }
+}
+
+/* Scrollbar personnalisée */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF8F8;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFB6C1;
+  border-radius: 10px;
+}
+
+/* Animation étoile pulsante */
+@keyframes pulseEtoile {
+  0%, 100% { transform: scale(1) rotate(0deg); }
+  25%       { transform: scale(1.1) rotate(5deg); }
+  75%       { transform: scale(1.1) rotate(-5deg); }
+}
+
+.etoile-animee {
+  animation: pulseEtoile 2s ease-in-out infinite;
+}
